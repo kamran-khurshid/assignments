@@ -1,0 +1,83 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 Edg/130.0.0.0" version="24.8.3">
+  <diagram name="Page-1" id="oKedkT_ken_QMWFXygu-">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="dSHGuWEOQkptgQHT3OZ7-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dSHGuWEOQkptgQHT3OZ7-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dSHGuWEOQkptgQHT3OZ7-3" value="START" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dSHGuWEOQkptgQHT3OZ7-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dSHGuWEOQkptgQHT3OZ7-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dSHGuWEOQkptgQHT3OZ7-5" value="char= enter any character" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="335" y="170" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dSHGuWEOQkptgQHT3OZ7-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dSHGuWEOQkptgQHT3OZ7-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="240" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dSHGuWEOQkptgQHT3OZ7-12" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="dSHGuWEOQkptgQHT3OZ7-8">
+          <mxGeometry x="-0.6197" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dSHGuWEOQkptgQHT3OZ7-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dSHGuWEOQkptgQHT3OZ7-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="650" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dSHGuWEOQkptgQHT3OZ7-13" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="dSHGuWEOQkptgQHT3OZ7-10">
+          <mxGeometry x="-0.6072" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dSHGuWEOQkptgQHT3OZ7-7" value="if char.isalpha()" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="280" width="150" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="dSHGuWEOQkptgQHT3OZ7-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dSHGuWEOQkptgQHT3OZ7-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="700" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="240" y="670" />
+              <mxPoint x="241" y="670" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dSHGuWEOQkptgQHT3OZ7-9" value="print(character is an alphabrt)" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="115" y="500" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dSHGuWEOQkptgQHT3OZ7-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dSHGuWEOQkptgQHT3OZ7-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="470" y="690" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="625" y="690" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dSHGuWEOQkptgQHT3OZ7-11" value="print(character is not an alphabet)" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="500" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dSHGuWEOQkptgQHT3OZ7-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dSHGuWEOQkptgQHT3OZ7-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="850" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dSHGuWEOQkptgQHT3OZ7-14" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="380" y="650" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dSHGuWEOQkptgQHT3OZ7-17" value="&lt;font size=&quot;3&quot;&gt;STOP&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="860" width="120" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
